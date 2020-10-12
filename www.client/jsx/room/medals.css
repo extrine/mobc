@@ -1,0 +1,35 @@
+.hue-rotate {
+	animation: hue-rotate 5s infinite;
+}
+
+@keyframes hue-rotate {
+	0% {
+		filter: hue-rotate(0);
+	}
+
+	100% {
+		filter: hue-rotate(360deg);
+	}
+}
+
+.waiting .medals {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+
+	position: absolute;
+	bottom: -3px;
+	left: 0;
+	max-width: 100%;
+}
+.waiting .medals img {
+	max-width: 16px;
+	border: 0px !important;
+	margin-right: 3px;
+}
+
+img[src='img/medals/gold.png?1'],
+img[src='img/medals/silver.png?1'],
+img[src='img/medals/bronze.png?1'] {
+	max-width: 11px;
+}

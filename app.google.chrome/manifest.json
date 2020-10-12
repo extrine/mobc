@@ -1,0 +1,29 @@
+{
+	"manifest_version": 2,
+	"name": "OMGMOBC.COM",
+	"version": "20.6.3.8",
+	"description": "Improves https://omgmobc.com/ experience by tweaking browser settings. Like enabling flash by default! (but only for this site)",
+	"icons": {
+		"16": "favicon16.png",
+		"32": "favicon32.png",
+		"48": "favicon48.png",
+		"64": "favicon64.png",
+		"128": "favicon128.png",
+		"256": "favicon256.png",
+		"512": "icon.png"
+	},
+	"browser_action": {
+		"default_title": "OMGMOBC.COM",
+		"default_icon": "icon.png",
+		"default_popup": "popup.html"
+	},
+	"background": {
+		"page": "background.html",
+		"persistent": true
+	},
+
+	"permissions": ["contentSettings"],
+	"homepage_url": "https://omgmobc.com/",
+	"short_name": "OMGMOBC.COM",
+	"content_security_policy": "default-src 'none';base-uri 'self';child-src www.youtube.com;connect-src 'self' https://omgmobc.com https://omgmobc.com  ws://omgmobc.com ws://omgmobc.com wss://omgmobc.com wss://omgmobc.com https://docs.google.com;font-src 'self' https://omgmobc.com https://omgmobc.com https://maxcdn.bootstrapcdn.com https://fonts.gstatic.com;form-action https://www.paypal.com;img-src data: http: https:;media-src http: https:;object-src 'none';report-uri /csp;script-src 'self' 'unsafe-eval' https://omgmobc.com https://omgmobc.com https://www.google-analytics.com;style-src 'self' 'unsafe-eval' https://omgmobc.com https://omgmobc.com;"
+}

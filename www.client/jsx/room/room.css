@@ -1,0 +1,46 @@
+.room-container .room .players {
+	max-height: 84px;
+	overflow-y: auto;
+	transform: translateZ(0);
+}
+
+.room-container .room .players .player {
+	font-size: 0.8rem;
+
+	overflow: hidden;
+	padding-right: 1px;
+	margin-bottom: 1px;
+	position: relative;
+	display: inline-block;
+}
+
+.room-container .room .players .player:hover {
+	background: rgba(5, 20, 49, 0.6);
+}
+
+.room-container .room .players .player .username {
+	display: inline-block;
+	overflow: hidden;
+
+	position: relative;
+	padding-right: 5px;
+}
+
+.room-container .room .players .player img.user,
+.room-container .room .players .player video.user {
+	padding-right: 2px;
+	border-right: 4px solid white;
+	margin-right: 4px;
+	height: 19px;
+	width: 19px;
+	vertical-align: top;
+}
+
+.room-container .room .players .player small {
+	position: relative;
+	top: -5px;
+	/* min-width: 22px; */
+	display: inline-block;
+	padding-right: 10px;
+	/* padding-left: 26px; */
+}

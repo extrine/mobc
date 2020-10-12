@@ -1,0 +1,323 @@
+html {
+	background-color: #041531;
+}
+
+::-webkit-scrollbar-track {
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #100632;
+}
+
+hr {
+	margin: 0;
+	background-color: rgba(255, 255, 255, 0.25);
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+label {
+	margin-bottom: 4px;
+}
+
+input[type='text'],
+input[type='password'] {
+	padding: 4px;
+	border: 0;
+}
+
+.button {
+	padding: 5px;
+	background-color: #999;
+	border: 1px solid black;
+	margin-right: 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.button,
+.button a {
+	color: black;
+}
+
+.content-container .content {
+}
+
+.content-container .header {
+	padding: 10px;
+}
+
+.content-container .header {
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-left: 10px;
+	margin-bottom: -6px;
+}
+
+.sidebar-container {
+	background-color: rgba(0, 0, 0, 0.65);
+	color: #d6cdcd;
+}
+
+.sidebar-container .sidebar {
+	border-left: 1px solid rgba(0, 0, 0, 0.35);
+	padding: 15px;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+
+.game-container .home .toolbar,
+.game-container .game .toolbar {
+	color: white;
+	background-color: rgba(0, 0, 0, 0.2);
+	padding: 7px;
+	padding-right: 10px;
+	padding-bottom: 6px;
+}
+.game-container .game .toolbar {
+	padding-right: 6px !important;
+	padding-bottom: 6px !important;
+	padding-top: 6px !important;
+	padding-left: 6px !important;
+}
+
+.game-container .home .toolbar *,
+.game-container .game .toolbar * {
+	vertical-align: middle;
+}
+.game-container .toolbar small {
+	text-transform: uppercase;
+}
+
+.game-container > .home > .toolbar,
+.game-container > .game > .toolbar {
+	padding-left: 110px !important;
+}
+
+.game-container .home .game-buttons .game-button,
+.game-container .home .game-buttons .game-button2 {
+	text-align: center;
+	background-color: #000;
+	color: #fff;
+	font-weight: bold;
+	font-size: 1.3rem;
+	position: relative;
+	width: 100%;
+}
+
+.game-container .home .game-buttons .game-button-create,
+.game-container .home .game-buttons .game-button-quick {
+	background-color: rgba(255, 253, 253, 0.73);
+	color: black;
+
+	font-size: 0.8rem;
+	padding-left: 5px;
+	padding-right: 5px;
+	position: absolute;
+	right: 5px;
+	top: 46px;
+	cursor: pointer;
+}
+
+/*.game-container .home .game-buttons .game-button:before {
+	content: 'CREATE ROOM';
+	background-color: rgba(255, 253, 253, 0.73);
+
+	color: black;
+	margin-right: 18px;
+	font-size: 0.8rem;
+	padding-left: 5px;
+	padding-right: 5px;
+	position: absolute;
+	left: 5px;
+	top: 46px;
+}*/
+
+.game-container .home .game-buttons .game-button a {
+	color: white;
+	text-decoration: none;
+}
+
+.game-container .home .game-buttons .game-button img {
+	clear: both;
+	display: block;
+}
+
+.chat-container .chat .messages .message .username {
+	font-weight: bold;
+}
+
+.chat-container .chat .messages .message[data-admin='true'] .username {
+	color: #c58100 !important;
+	border-bottom: 1px solid rgba(255, 0, 0, 0.8) !important;
+}
+
+.chat-container .chat .messages .message[data-admin='true'] .username:hover {
+	border-color: black !important;
+	color: rgba(255, 0, 0, 0.8) !important;
+}
+
+.chat-container .chat .messages .message.game {
+	color: #a29c8f;
+}
+
+.chat-container .chat .messages .message.host .username {
+	color: #3bc124;
+}
+
+.chat-container .chat .messages .message .username[data-username='Silver'],
+.chat-container .chat .messages .message[data-user='Silver'] .username {
+	text-shadow: 0px 0px 1px #000000, 0px 0px 1px #716f6f, 0px 0px 1px #efefef, 0px 0px 1px #ffffff;
+}
+
+.chat-container .chat .messages .message .username[data-underline='true'] {
+	background: transparent;
+	/*background: linear-gradient(90deg, rgb(255, 112, 149), rgb(13, 41, 119));*/
+	background-clip: text !important;
+	-webkit-background-clip: text !important;
+	color: transparent !important;
+	-webkit-text-stroke-width: 0.5px;
+}
+.chat-container .chat .messages .message .username[data-username='omgmobc.com'] {
+	background: linear-gradient(90deg, rgb(255, 0, 0), rgb(255, 0, 0));
+}
+
+.chat-container .chat .messages .message.spectator .username {
+	color: #9f6da5;
+}
+
+.chat-container .chat .messages .message.mobc .username {
+	color: white;
+	cursor: normal;
+}
+
+body[data-guest='true'] .chat-container .chat .messages .message:not(.mobc):not(.game) {
+	opacity: 0.3;
+}
+
+body[data-guest='false'] .chat-container .chat .messages .message.lame {
+	opacity: 0.4;
+}
+
+.chat-container .chat .messages .message {
+	border-right: 1px solid transparent;
+	margin-top: -1px;
+	padding-bottom: 1px;
+}
+
+.chat-container .chat .messages .message.unread {
+	border-right: 1px solid yellow;
+}
+
+.chat-container .chat .messages .message .text a,
+.profile .entry .message .text a {
+	color: white;
+	text-decoration: none;
+	border-bottom: 1px solid white;
+}
+
+.chat-container .chat .messages .message .text a[data-video-id] svg,
+.profile .entry .message a[data-video-id] svg {
+	margin-left: 0px;
+	color: green;
+}
+
+.chat-container .chat .messages .message .text iframe {
+	margin-top: 5px;
+}
+
+body,
+body[data-game] {
+	background-size: cover !important;
+	background: url('https://omgmobc.com/img/background/standard4.jpg');
+}
+
+body[data-game=''] {
+	background: url('https://omgmobc.com/img/background/standard4.jpg');
+}
+
+body[data-game='pool'] {
+	background: url('https://omgmobc.com/img/background/games-pool-readybg.jpg');
+}
+
+body[data-game='9ball'] {
+	background: url('https://omgmobc.com/img/background/games-nineballpool-readybg.jpg');
+}
+
+body[data-game='pool'] .content-container .header,
+body[data-game='9ball'] .content-container .header {
+	color: white;
+}
+
+body[data-game='pool'] .content-container .content,
+body[data-game='9ball'] .content-container .content {
+	background-color: initial;
+}
+
+body[data-game='pool'] .game-container .game .toolbar,
+body[data-game='9ball'] .game-container .game .toolbar {
+	color: white;
+}
+
+body[data-game='swapples'] {
+	background: url('https://omgmobc.com/img/background/dusk.jpg');
+}
+body[data-game='loonobum'] {
+	background: url('https://omgmobc.com/img/background/games-balloonoclassic-readybg.jpg');
+}
+body[data-game='poker'] {
+	background: url('https://omgmobc.com/img/background/trees.jpg');
+}
+
+body[data-game='watchtogether'] {
+	background: url('https://omgmobc.com/img/background/dusk-dark.jpg');
+}
+
+body[data-game='checkers'] {
+	background: url('https://omgmobc.com/img/background/games-checkers-readybg.jpg');
+}
+
+body[data-game='gemmers'] {
+	background: url('https://omgmobc.com/img/background/games-jewels-readybg.jpg');
+}
+
+body[data-game='blockles'],
+body[data-game='blocklesmulti'] {
+	background: url('https://omgmobc.com/img/background/games-droppingobjects-readybg.jpg');
+}
+
+body[data-game='bubbles'],
+body[data-game='bubblesni'],
+body[data-game='dinglepop'] {
+	background: url('https://omgmobc.com/img/background/games-bubbles-readybg.jpg');
+}
+
+body[data-game='tonk3'] {
+	background: url('https://omgmobc.com/img/background/tonk20.jpg');
+}
+
+body[data-game='skypigs'] {
+	background: url('https://omgmobc.com/img/background/ilovepoop.jpg');
+}
+
+body[data-game='balloono'] {
+	background: url('https://omgmobc.com/img/background/games-balloonoclassic-readybg.jpg');
+}
+body[data-game='balloonoboot'] {
+	background: url('https://omgmobc.com/img/background/games-balloonoclassic-readybg.jpg');
+}
+
+body[data-game='cuacka'] {
+	background-color: #040104;
+	transition: background 2s ease, background-image 2s ease, background-color 2s ease;
+	background-size: cover;
+	background-image: none;
+}
+
+::cue {
+	background-color: transparent;
+	color: white;
+	text-shadow: 1px 1px 0 black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+	font-weight: bold;
+}

@@ -1,0 +1,22 @@
+.friend-requests .friend-request {
+	display: flex;
+	flex-direction: row;
+	margin: 5px;
+}
+
+.friend-requests .friend-request .user {
+	overflow-x: auto;
+	cursor: pointer;
+	height: 100%;
+}
+
+.friend-requests .friend-request .buttons {
+	margin-right: 5px;
+}
+
+.friend-requests .friend-request .buttons span {
+	margin-right: 5px;
+	cursor: pointer;
+	width: 8px;
+	text-align: center;
+}

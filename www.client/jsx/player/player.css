@@ -1,0 +1,30 @@
+.sidebar-container .player-container .player {
+	position: relative;
+
+	padding-bottom: 0px;
+	margin-bottom: -5px;
+}
+
+.sidebar-container .player-container hr {
+	margin-top: 1px;
+}
+
+.sidebar-container .player-container .player .close-video {
+	position: absolute;
+	right: -5px;
+	top: 6px;
+}
+
+.sidebar-container .player-container .player svg {
+	opacity: 0.3;
+	font-size: 1.3rem;
+	display: block;
+}
+
+.sidebar-container .player-container .player svg:hover {
+	opacity: 0.8;
+}
+
+body:not([data-video-id='']) .hidden-on-video {
+	display: none;
+}

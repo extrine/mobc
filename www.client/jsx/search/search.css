@@ -1,0 +1,33 @@
+.content-container .footer .page .search .button {
+	padding: 4px;
+	margin-left: 4px;
+}
+
+.content-container .footer .page[data-page='search'] {
+	min-height: 80%;
+	max-height: 80%;
+}
+
+.content-container .footer .page .search .username {
+}
+
+.content-container .footer .page .search img {
+	border: 0px solid white;
+}
+
+.content-container .footer .page .search .status {
+	overflow-wrap: break-word;
+	float: left;
+	max-width: 133px;
+	max-height: 54px;
+	overflow: hidden;
+	font-size: 0.75rem;
+}
+
+.content-container .footer .page .search .column {
+	margin-left: 0px;
+}
+
+.content-container .footer .page .search .search-loading {
+	margin-right: 5px;
+}

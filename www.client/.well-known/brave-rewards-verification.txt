@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: omgmobc.com
+Token: 70c83b9e030ba95ca00398b3583304ac3c8e824f19bf7d34fc692d28bfeba18f

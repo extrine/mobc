@@ -1,0 +1,252 @@
+var TournamentBrackets = React.createClass({
+	mixins: [React.addons.PureRenderMixin],
+
+	render: function() {
+		return (
+			<div>
+				<div>
+					<h1>MOBC POOL TOURNAMENT BRACKETS</h1>
+					<hr />
+					You should arrange your match with your oponent. Please see the{' '}
+					<a className="white" href="#p/Tournament" className="white">
+						rules
+					</a>
+					.<br />
+					<br />
+					First person to win 4 matches goes to next round.
+					<br />
+					<br />
+				</div>
+				<div>
+					<h2>Final (Between "to be defined" and "to be defined")</h2>
+					<hr />
+					Please note this matches are best of 17.
+					<ul>
+						<li>Final</li>
+						<ul>
+							<li>Winner of Group 1</li>
+							<li>Winner of Group 2</li>
+						</ul>
+					</ul>
+				</div>
+				<div>
+					<h2>Semifinals (Between "to be defined" and "to be defined")</h2>
+					<hr />
+
+					<ul>
+						<li>Group 1</li>
+						<ul>
+							<li>Winner of Group 1</li>
+							<li>Winner of Group 2</li>
+						</ul>
+						<li>Group 2</li>
+						<ul>
+							<li>Winner of Group 3</li>
+							<li>Winner of Group 4</li>
+						</ul>
+					</ul>
+				</div>
+				<div>
+					<h2>Round 3 (Before "to be defined")</h2>
+					<hr />
+					<ul>
+						<li>Group 1</li>
+						<ul>
+							<li>Winner of Group 1</li>
+							<li>Winner of Group 2</li>
+						</ul>
+						<li>Group 2</li>
+						<ul>
+							<li>Winner of Group 3</li>
+							<li>Winner of Group 4</li>
+						</ul>
+						<hr />
+
+						<li>Group 3</li>
+						<ul>
+							<li>Winner of Group 5</li>
+							<li>Winner of Group 6</li>
+						</ul>
+						<li>Group 4</li>
+						<ul>
+							<li>Winner of Group 7</li>
+							<li>Winner of Group 8</li>
+						</ul>
+						<hr />
+					</ul>
+				</div>
+
+				<div>
+					<h2>Round 2 (Before "to be defined")</h2>
+					<hr />
+					<ul>
+						<li>Group 1</li>
+						<ul>
+							<li>Winner of Group 1</li>
+							<li>Winner of Group 2</li>
+						</ul>
+						<li>Group 2</li>
+						<ul>
+							<li>Winner of Group 3</li>
+							<li>Winner of Group 4</li>
+						</ul>
+						<hr />
+
+						<li>Group 3</li>
+						<ul>
+							<li>Winner of Group 5</li>
+							<li>Winner of Group 6</li>
+						</ul>
+						<li>Group 4</li>
+						<ul>
+							<li>Winner of Group 7</li>
+							<li>Winner of Group 8</li>
+						</ul>
+						<hr />
+						<hr />
+
+						<li>Group 5</li>
+						<ul>
+							<li>Winner of Group 9</li>
+							<li>Winner of Group 10</li>
+						</ul>
+						<li>Group 6</li>
+						<ul>
+							<li>Winner of Group 11</li>
+							<li>Winner of Group 12</li>
+						</ul>
+						<hr />
+
+						<li>Group 7</li>
+						<ul>
+							<li>Winner of Group 13</li>
+							<li>Winner of Group 14</li>
+						</ul>
+						<li>Group 8</li>
+						<ul>
+							<li>Winner of Group 15</li>
+							<li>Winner of Group 16</li>
+						</ul>
+						<hr />
+						<hr />
+						<hr />
+					</ul>
+				</div>
+				<div>
+					<h2>Round 1 (Before "to be defined")</h2>
+					<hr />
+					<ul>
+						<li>Group 1</li>
+						<ul>
+							<li>to be defined</li>
+							<li>to be defined</li>
+						</ul>
+						<li>Group 2</li>
+						<ul>
+							<li>to be defined</li>
+							<li>to be defined</li>
+						</ul>
+						<hr />
+
+						<li>Group 3</li>
+						<ul>
+							<li>to be defined</li>
+							<li>to be defined</li>
+						</ul>
+						<li>Group 4</li>
+						<ul>
+							<li>to be defined</li>
+							<li>to be defined</li>
+						</ul>
+
+						<hr />
+						<hr />
+
+						<li>Group 5</li>
+						<ul>
+							<li>to be defined</li>
+							<li>to be defined</li>
+						</ul>
+						<li>Group 6</li>
+						<ul>
+							<li>to be defined</li>
+							<li>to be defined</li>
+						</ul>
+						<hr />
+
+						<li>Group 7</li>
+						<ul>
+							<li>to be defined</li>
+							<li>to be defined</li>
+						</ul>
+						<li>Group 8</li>
+						<ul>
+							<li>to be defined</li>
+							<li>to be defined</li>
+						</ul>
+
+						<hr />
+						<hr />
+						<hr />
+
+						<li>Group 9</li>
+						<ul>
+							<li>to be defined</li>
+							<li>to be defined</li>
+						</ul>
+						<li>Group 10</li>
+						<ul>
+							<li>to be defined</li>
+							<li>to be defined</li>
+						</ul>
+						<hr />
+
+						<li>Group 11</li>
+						<ul>
+							<li>to be defined</li>
+							<li>to be defined</li>
+						</ul>
+						<li>Group 12</li>
+						<ul>
+							<li>to be defined</li>
+							<li>to be defined</li>
+						</ul>
+
+						<hr />
+						<hr />
+
+						<li>Group 13</li>
+						<ul>
+							<li>to be defined</li>
+							<li>to be defined</li>
+						</ul>
+						<li>Group 14</li>
+						<ul>
+							<li>to be defined</li>
+							<li>to be defined</li>
+						</ul>
+						<hr />
+
+						<li>Group 15</li>
+						<ul>
+							<li>to be defined</li>
+							<li>to be defined</li>
+						</ul>
+						<li>Group 16</li>
+						<ul>
+							<li>to be defined</li>
+							<li>to be defined</li>
+						</ul>
+
+						<hr />
+						<hr />
+					</ul>
+				</div>
+
+				<div>
+					<SeeAlso />
+				</div>
+			</div>
+		)
+	},
+})

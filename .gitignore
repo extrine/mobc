@@ -1,0 +1,15 @@
+*.diff
+*.error
+*.log
+*.tlog
+/backup/*
+/compile/data.json
+/data/*
+/local/*
+TODO
+compile/data.json
+localhost.json
+package-lock.json
+www.client/m/f.min.js
+www.client/swf/pool/diff.diff
+.DS_Store

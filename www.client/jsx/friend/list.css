@@ -1,0 +1,53 @@
+.friend-list-container {
+	transform: translateZ(0);
+	height: 100%;
+	font-size: 0.9em;
+	max-height: 100%;
+	overflow-y: auto;
+}
+
+.friend-list-container .idoing {
+	margin-bottom: 5px;
+	font-size: 0.9rem;
+	font-weight: bold;
+	margin-bottom: 7px;
+	margin-top: 2px;
+}
+
+.friend-list-container .friend-list-toolbar {
+	margin: 6px 0;
+}
+
+.friend-list-container .friend-container .doing {
+	margin-left: 16px;
+	font-size: 0.8rem;
+	font-weight: normal;
+	margin-bottom: 3px;
+}
+.friend-list-container .friend-container .doing img {
+	max-width: 1em;
+	max-height: 1em;
+	margin-left: 5px;
+}
+
+.friend-list-container .friend-container .friend-list-rooms {
+	margin-left: 4px;
+}
+
+.friend-list-container .friend-container .friend-list-rooms img {
+	width: 21px;
+	height: 21px;
+
+	margin-bottom: -3px;
+	padding-right: 6px;
+}
+
+.friend-list-container .friend-container .pm {
+	width: 21px;
+	height: 21px;
+	opacity: 0.5;
+	margin-right: 5px;
+}
+.friend-list-container .friend-container .pm:hover {
+	opacity: 1;
+}

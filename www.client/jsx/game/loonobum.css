@@ -1,0 +1,33 @@
+.game-container .game .game-swf {
+	position: relative;
+}
+
+body[data-game='loonobum'] .game-container .game .game-swf .restart {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	font-weight: bold;
+	cursor: pointer;
+	padding: 6px;
+}
+
+body[data-game='loonobum']
+	.game-container
+	.game
+	.game-swf
+	.game-score
+	.score-table
+	.player:last-child {
+	transition: none !important;
+}
+
+body[data-game='loonobum']
+	.game-container
+	.game
+	.game-swf
+	.game-score
+	.score-table
+	.player:nth-of-type(odd) {
+	background: rgba(0, 0, 0, 0.2);
+	transition: none !important;
+}

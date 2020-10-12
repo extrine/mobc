@@ -1,0 +1,36 @@
+.waiting-status {
+	position: absolute;
+	bottom: 10px;
+	right: 20px;
+	font-size: 0.8em;
+}
+
+.waiting .favicon img {
+	max-width: 24px;
+	display: inline-block;
+	position: absolute;
+	border: 0px !important;
+	left: 10px;
+	top: 10px;
+	border-radius: 4px;
+	filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.8));
+
+	animation: rotate 3.5s;
+	animation-iteration-count: infinite;
+	transform: scaleX(1);
+	image-rendering: optimizequality;
+}
+
+@keyframes rotate {
+	0% {
+		transform: scaleX(1);
+	}
+
+	50% {
+		transform: scaleX(-1);
+	}
+
+	100% {
+		transform: scaleX(1);
+	}
+}

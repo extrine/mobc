@@ -1,0 +1,236 @@
+@media all and (max-width: 1550px) {
+	.sidebar-container .sidebar {
+		padding: 10px;
+	}
+
+	.sidebar-container .sidebar .youtube-frame {
+		margin-left: -11px;
+		width: calc(100% + 21px);
+	}
+	.sidebar-container .player-container .player .close-video {
+		right: 0px;
+		top: 4px;
+	}
+	.content-container {
+		width: 77%;
+	}
+	.sidebar-container {
+		width: 23%;
+	}
+
+	.messages-container .messages .message.system {
+		width: 40%;
+		margin-right: 40%;
+	}
+	.content-container .footer .page[data-open='true'] {
+		margin-left: 4%;
+		width: 91%;
+		max-width: 91%;
+		box-sizing: border-box;
+	}
+
+	.game-container .home .home-content .rooms-container .rooms .room {
+		width: 50%;
+		min-width: 50%;
+	}
+}
+
+@media all and (max-width: 900px) {
+	.game-container .home .home-content .rooms-container .rooms .room {
+		width: 100%;
+		min-width: 100%;
+	}
+}
+
+@media all and (max-width: 400px) {
+	.content-container {
+		width: 0px;
+	}
+
+	.sidebar-container {
+		width: 100%;
+	}
+
+	.chat-container .wtf {
+		display: none;
+	}
+}
+
+body[data-is-mobile='true'][data-orientation='portrait'] .content-container {
+	width: 0px;
+}
+
+/* profile portrait  start */
+
+body[data-is-mobile='true'][data-orientation='portrait'] .page {
+	width: 100%;
+	min-width: 100%;
+	margin: 0;
+	padding: 5px;
+	height: 90%;
+	min-height: 90%;
+}
+
+body[data-is-mobile='true'][data-orientation='portrait'] .page .profile {
+	margin: 0;
+	padding: 5px !important;
+}
+
+/* reset */
+
+body[data-is-mobile='true'][data-orientation='portrait']
+	.content-container
+	.footer
+	.page
+	.profile
+	.avatar[data-donated='true']:before {
+	left: unset !important;
+	top: unset !important;
+}
+
+body[data-is-mobile='true'][data-orientation='portrait']
+	.content-container
+	.footer
+	.page
+	.profile
+	.profile-video-star {
+	left: unset !important;
+	top: 0 !important;
+}
+
+body[data-is-mobile='true'][data-orientation='portrait']
+	.content-container
+	.footer
+	.page
+	.profile
+	.avatar
+	.likes {
+	position: absolute !important;
+	top: 8px;
+}
+
+body[data-is-mobile='true'][data-orientation='portrait'] .page .profile .avatar .username {
+	font-size: 2em !important;
+	/* width: 100%; */
+	/* margin-top: 19px !important; */
+	/* margin-left: 17px !important; */
+	position: absolute !important;
+
+	max-width: 50%;
+	text-align: right;
+	right: 10px !important;
+	top: 0px !important;
+	right: 29px !important;
+}
+
+body[data-is-mobile='true'][data-orientation='portrait']
+	.content-container
+	.footer
+	.page
+	.profile
+	.avatar
+	.user-info {
+	font-size: 1em !important;
+
+	max-width: 50%;
+	text-align: right;
+	right: 10px !important;
+	top: 0px !important;
+	right: 30px !important;
+	top: -15px !important;
+}
+body[data-is-mobile='true'][data-orientation='portrait']
+	.content-container
+	.footer
+	.page
+	.profile
+	.avatar {
+	padding-left: 20px;
+	margin: 0;
+	width: 100%;
+}
+
+body[data-is-mobile='true'][data-orientation='portrait']
+	.content-container
+	.footer
+	.page
+	.profile
+	.profile-columns {
+	display: flex !important;
+	flex-direction: column !important;
+}
+/* profile portrait end */
+
+body[data-is-mobile='true'][data-orientation='portrait'] .sidebar-container {
+	width: 100%;
+}
+
+body[data-is-mobile='true'][data-orientation='portrait'] .chat-container .wtf {
+	display: none;
+}
+
+body[data-is-mobile='true'][data-orientation='portrait']
+	.content-container
+	.footer
+	.page
+	.profile
+	.opponents {
+	min-width: 100%;
+	margin-left: 0;
+}
+body[data-is-mobile='true'][data-orientation='portrait']
+	.content-container
+	.footer
+	.page
+	.profile
+	.entries {
+	padding: 0;
+}
+body[data-is-mobile='true'][data-orientation='portrait']
+	.content-container
+	.footer
+	.page
+	.profile
+	.entry {
+	margin: 0;
+	margin-bottom: 20px;
+}
+
+body[data-is-mobile='true'][data-orientation='portrait'] .content-container .footer .page .profile {
+	margin: 0px;
+	padding: 0px !important;
+	background: none !important;
+	padding-top: 20px !important;
+	width: 100%;
+	padding: 0px !important;
+	padding-top: 20px !important;
+	max-width: 100%;
+}
+body[data-is-mobile='true'][data-orientation='portrait'] .content-container .footer .page {
+	margin-left: 0;
+}
+body[data-is-mobile='true'][data-orientation='portrait']
+	.content-container
+	.footer
+	.page
+	.profile
+	.status {
+	display: flex;
+	flex: 1;
+	position: relative;
+	width: 100%;
+	left: unset;
+	bottom: unset;
+	width: calc(100% - 33px) !important;
+}
+
+@media screen and (max-height: 300px) {
+	.chat-input-container {
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		z-index: 2;
+		background-color: #000;
+		width: 100%;
+	}
+}

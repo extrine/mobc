@@ -1,0 +1,469 @@
+html,
+body {
+	overflow: hidden;
+	height: 100%;
+	min-height: 100%;
+	max-height: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body,
+.font {
+	font-family: 'Open Sans', 'Lucida Sans Unicode', 'Lucida Grande', Helvetica, sans-serif;
+	font-size: 16px;
+
+	color: white;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+.full-height {
+	overflow: hidden;
+	height: 100%;
+	min-height: 100%;
+	max-height: 100%;
+}
+
+.block {
+	display: inline-block;
+}
+
+.bbred {
+	background: red;
+	width: 100%;
+	display: block;
+}
+
+.inline {
+	display: inline;
+}
+
+img {
+	overflow: hidden;
+	border: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+h1 a {
+	text-decoration: none;
+}
+
+hr {
+	border: 0;
+	padding: 0;
+	padding-bottom: 1px;
+}
+
+audio {
+	display: block;
+	height: 40px;
+}
+
+.canvas {
+	position: fixed !important;
+	top: 0px !important;
+	right: 0px !important;
+	background: white;
+	max-height: 500px;
+}
+
+.ignore-click {
+	pointer-events: none;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+.no-text-decoration {
+	text-decoration: none;
+	border: 0px !important;
+}
+
+.white {
+	color: white;
+}
+
+.break {
+	word-wrap: break-word;
+}
+
+.l {
+	float: left;
+}
+
+.r {
+	float: right;
+}
+
+.clear {
+	display: block;
+	clear: both;
+}
+
+label {
+	display: block;
+}
+
+.em20 {
+	column-width: 20em !important;
+}
+
+input[type='text'],
+input[type='password'] {
+	max-width: 100%;
+	width: 75%;
+	resize: none;
+}
+
+textarea {
+	font-family: 'Open Sans', 'Lucida Sans Unicode', 'Lucida Grande', Helvetica, sans-serif;
+	font-size: 100%;
+	color: white;
+}
+
+input[type='file'] {
+	display: none;
+}
+
+.button {
+	text-decoration: none;
+	cursor: pointer;
+	user-select: none;
+	display: inline-block;
+	clear: both;
+	text-transform: uppercase;
+	font-size: 0.7rem;
+}
+
+.button a {
+	text-decoration: none;
+}
+
+.link {
+	text-decoration: underline;
+	cursor: pointer;
+	color: white;
+}
+
+.white {
+	color: white;
+}
+
+.underline-hover {
+	text-decoration: none;
+}
+
+.underline-hover:hover {
+	text-decoration: underline;
+}
+
+.border-hover:hover {
+	border-bottom: 1px solid;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.no-underline {
+	text-decoration: none;
+}
+.no-italic {
+	font-style: normal;
+}
+.no-border {
+	border: none !important;
+}
+.relative {
+	position: relative;
+}
+
+.half {
+	max-width: 50%;
+	width: 50%;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.no-select {
+	user-select: none !important;
+}
+
+.relative {
+	position: relative;
+}
+
+.min-h {
+	height: 0px;
+}
+
+i.fa {
+	width: 1.28571429em;
+	text-align: center;
+}
+
+.center {
+	text-align: center;
+}
+
+.hidden {
+	display: none;
+}
+
+.filterable.hidden {
+	display: none !important;
+}
+
+.red {
+	background: #9c0000 !important;
+	color: white !important;
+	border-color: white !important;
+}
+
+.green {
+	background: #0f561c !important;
+	color: white !important;
+	border-color: white !important;
+}
+
+.yellow {
+	background: #5e0892 !important;
+	color: #fff !important;
+	border-color: #fff !important;
+}
+
+.restart {
+	z-index: 0;
+}
+
+.column {
+	column-width: auto;
+	column-gap: 1%;
+	column-count: auto;
+	display: block;
+}
+
+.column {
+	width: 100%;
+	max-width: 100%;
+	clear: both;
+	column-count: auto;
+	column-width: 15em;
+}
+
+.column > li {
+	list-style: none;
+	width: 100%;
+	min-width: 100%;
+	clear: both;
+	display: inline-block;
+}
+
+.no-li-style > li {
+	list-style: none;
+}
+
+.w50 {
+	width: 50% !important;
+	max-width: 50% !important;
+}
+
+.w20 {
+	width: 20% !important;
+	max-width: 20% !important;
+}
+
+.pixelated {
+	image-rendering: pixelated;
+}
+
+* {
+	transition: opacity 0.2s ease, box-shadow 0.2s ease;
+}
+
+.content-container .footer .page {
+	transition: max-height 0.35s ease, height 0.35s ease, opacity 0.2s ease, box-shadow 0.2s ease;
+}
+
+.cgreen {
+	color: lime;
+}
+
+.cred {
+	color: red;
+}
+
+.corange {
+	color: orange;
+}
+
+.cyellow {
+	color: yellow;
+}
+
+.cpurple {
+	color: purple;
+}
+
+.cblue {
+	color: blue;
+}
+.bkblue {
+	background-color: #5555c3 !important;
+}
+
+p {
+	margin: 0;
+}
+
+audio,
+video {
+	max-width: 100%;
+}
+
+video {
+	object-fit: fill;
+}
+
+.no-overflow {
+	max-height: 0px !important;
+	height: 0px !important;
+	max-width: 0px !important;
+	width: 0px !important;
+	padding: 0px !important;
+	margin: 0px !important;
+}
+
+.flex-wrap {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+svg {
+	width: 0.9em;
+	height: 0.9em;
+	vertical-align: bottom;
+}
+
+audio::-webkit-media-controls-enclosure,
+video::-webkit-media-controls-enclosure {
+	border-radius: 0;
+}
+
+.arrows {
+	margin-bottom: 10px;
+	margin-left: 20px;
+	float: right;
+}
+
+.arrow-left,
+.arrow-right {
+	opacity: 0.4;
+	background: url('https://omgmobc.com/img/arrow-small.png');
+	width: 35px;
+	height: 53px;
+	display: inline-block;
+	background-position: center center;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+.arrow-left:hover,
+.arrow-right:hover {
+	opacity: 1;
+}
+
+.arrow-left {
+	transform: scaleX(-1);
+}
+
+.arrow-right {
+	margin-left: 30px;
+}
+
+mark {
+	padding-left: 2px;
+	padding-right: 2px;
+	border-radius: 2px;
+	background: #b1c1273d;
+	color: white;
+}
+
+.quote {
+	padding: 0 0 0 10px;
+	margin: 0 0 0 4px;
+	border-left-width: 4px;
+	border-left-style: solid;
+	display: inline-block;
+	color: #a8bbba;
+}
+.quote a {
+	color: #a8bbba;
+}
+.profile .message .quote,
+.thinking .quote {
+}
+
+.quote {
+	border-color: #bae1ff;
+}
+.quote .quote {
+	border-color: #ffdfba;
+}
+.quote .quote .quote {
+	border-color: #ffffba;
+}
+
+.quote .quote .quote .quote {
+	border-color: #baffc9;
+}
+
+.quote .quote .quote .quote .quote {
+	border-color: #ffb3ba;
+}
+
+.quote .quote .quote .quote .quote .quote {
+	border-color: #bae1ff;
+}
+.quote .quote .quote .quote .quote .quote .quote {
+	border-color: #ffdfba;
+}
+.quote .quote .quote .quote .quote .quote .quote .quote {
+	border-color: #ffffba;
+}
+
+.quote .quote .quote .quote .quote .quote .quote .quote .quote {
+	border-color: #baffc9;
+}
+
+.quote .quote .quote .quote .quote .quote .quote .quote .quote .quote {
+	border-color: #ffb3ba;
+}
+summary {
+	font-size: 1.3em;
+
+	cursor: pointer;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: -18px;
+}
+details {
+	padding-left: 18px;
+}

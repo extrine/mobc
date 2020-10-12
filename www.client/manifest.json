@@ -1,0 +1,21 @@
+{
+	"name": "OMGPOP",
+	"short_name": "mobc",
+	"icons": [
+		{
+			"src": "/img/512.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		},
+		{
+			"src": "/img/192.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		}
+	],
+	"start_url": "./",
+	"display": "standalone",
+	"orientation": "any",
+	"background_color": "#000000",
+	"theme_color": "#FFFFFF"
+}

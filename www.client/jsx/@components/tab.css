@@ -1,0 +1,73 @@
+.tab-area {
+	margin-top: 10px;
+}
+
+.tab-area-tabs {
+	display: flex;
+	flex-direction: row;
+	user-select: none;
+	flex-wrap: wrap;
+}
+
+.tab-area-tabs-tab {
+	padding: 5px 12px;
+	border-left: none;
+	background-color: rgba(0, 0, 0, 0.4);
+	opacity: 0.4;
+	cursor: pointer;
+	border-bottom: 4px solid white;
+	white-space: nowrap;
+}
+
+.tab-area-tabs-tab .count {
+	background-color: lime;
+	font-weight: 700;
+	padding: 0 5px;
+	margin-right: 2px;
+	border-radius: 4px;
+	color: black;
+}
+
+.tab-area-tabs-fill {
+	flex: 1;
+}
+
+.tab-area-tabs-selected {
+	background-color: transparent;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-bottom: 4px solid white;
+	color: white;
+	opacity: 1;
+}
+
+.tab-area-content {
+	padding: 10px;
+}
+
+.tab-area[data-inner='true'] {
+	position: relative;
+	top: -20px;
+	left: -10px;
+}
+
+.tab-area-tabs-tab[data-inner='true'] {
+	padding: 2px 12px;
+}
+
+.tab-area-tabs-tab.notify {
+	animation: unread-pulse 2s infinite;
+}
+
+@keyframes unread-pulse {
+	0% {
+		background-color: purple;
+	}
+
+	50% {
+		background-color: red;
+	}
+
+	100% {
+		background-color: purple;
+	}
+}

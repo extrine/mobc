@@ -1,0 +1,106 @@
+.sidebar .tab-area,
+.sidebar .tab-area-content,
+.sidebar .tab-area-content > span,
+.sidebar .tab-area-content .tab,
+.sidebar .tab-area-content .tab > div {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	min-height: 0;
+}
+
+.sidebar .tab-area-content {
+	padding: 0px;
+}
+
+.sidebar .tab-area-tabs {
+	font-size: 11px;
+}
+
+.sidebar .tab-area-tabs-tab {
+	padding: 5px 5px;
+}
+
+.sidebar .tab-area[data-inner='true'] {
+	top: -10px;
+	left: 0px;
+}
+
+.sidebar .tab-area[data-inner='true'] .tab-area-tabs {
+	font-size: 10px;
+}
+
+.sidebar .donate {
+	background: #4cbaff;
+	text-align: center;
+	padding: 2px 5px 5px;
+	vertical-align: middle;
+	display: none;
+	font-size: 2em;
+	padding: 14px;
+}
+
+body[data-guest='false'][data-donated='false'] .sidebar .donate {
+	display: block;
+}
+
+.sidebar .donate img {
+	background: white;
+	max-height: 15px;
+	vertical-align: middle;
+	padding: 1px;
+	margin-left: 6px;
+}
+
+.sidebar .donate a {
+	display: block;
+	width: 100%;
+}
+
+.sidebar .rooms-container {
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+.sidebar .rooms-container .toolbar {
+	display: none;
+}
+.sidebar .rooms-container .rooms .room {
+	position: relative;
+	width: 100%;
+	background-position: 100% 40%;
+	margin-top: 2px;
+	padding-top: 4px;
+}
+.sidebar .rooms-container .rooms .room img.profile-image,
+.sidebar .rooms-container .rooms .room video.profile-image {
+	width: 32px;
+	height: 32px;
+	min-width: 32px;
+	min-height: 32px;
+}
+.sidebar .rooms-container .rooms .room .name-container {
+	z-index: 2;
+	/*background-color: rgba(0, 0, 0, 0.6);*/
+	bottom: 0;
+}
+.sidebar .rooms-container .rooms .room .name-container .name {
+	color: white;
+	font-size: 12px;
+	padding-left: 2px;
+}
+.sidebar .rooms-container .rooms .room .creator {
+	display: none;
+	width: 16px !important;
+	height: 16px !important;
+}
+.sidebar .rooms-container .rooms .image-container {
+	margin-bottom: 13px;
+}
+
+.sidebar-container .tab-area-tabs-tab {
+	flex: 1;
+	text-align: center;
+}
+.sidebar-container .tab-area-tabs-fill {
+	display: none;
+}

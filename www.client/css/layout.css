@@ -1,0 +1,524 @@
+body,
+html,
+.content-container,
+.sidebar-container,
+.sidebar,
+.content-container .content .game-container,
+.content-container .content .game-container .home,
+.content-container .content .game-container .game,
+.content-container .content .game-container .game .game-swf,
+.content-container .content .game-container .game .game-swf .game-swf-object,
+.content-container .content .game-container .game .game-swf .waiting {
+	height: 100%;
+	min-height: 100%;
+	max-height: 100%;
+	box-sizing: border-box;
+}
+
+.content-container .content .game-container .game .game-swf {
+	height: calc(100% - 35px);
+	min-height: calc(100% - 35px);
+}
+
+.content-container .content .game-container .game .game-swf .game-swf-object {
+	text-align: center;
+}
+
+.content-container .content .game-container .game .game-swf .preload {
+	position: absolute;
+	bottom: 5px;
+	left: 5px;
+}
+
+.content-container {
+	float: left;
+	width: 85%;
+	overflow: hidden !important;
+}
+
+.content-container .content {
+	height: calc(100% - 5px);
+	min-height: calc(100% - 5px);
+	max-height: calc(100% - 5px);
+	box-sizing: border-box;
+	overflow: hidden !important;
+	z-index: 0;
+}
+
+.content-container .footer {
+	box-sizing: border-box;
+	overflow: hidden;
+	background: rgba(0, 0, 0, 0);
+}
+
+.content-container .header {
+	height: 11px;
+	max-height: 11px;
+	box-sizing: border-box;
+}
+
+.content-container .header h1 a {
+	color: white;
+}
+
+.content-container .footer {
+	height: 0px;
+	max-height: 0px;
+	z-index: 99999;
+	position: relative;
+}
+
+.sidebar-container {
+	float: left;
+	width: 15%;
+	overflow: hidden !important;
+}
+
+.sidebar-container .sidebar {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	min-height: 0;
+}
+
+.sidebar-container .sidebar .youtube-frame {
+	margin-left: -21px;
+	width: calc(100% + 31px);
+}
+
+.game-container .home {
+	display: flex;
+	flex-direction: column;
+	min-height: 0;
+}
+
+.game-container .home-content {
+	flex: 1;
+	display: flex;
+	flex-direction: row;
+	max-height: calc(100% - 36px);
+}
+
+.game-container .home .home-content .game-buttons {
+	overflow-x: hidden;
+	flex: 1;
+	box-sizing: border-box;
+	max-width: 195px;
+	overflow-y: auto;
+	text-align: center;
+	border: 10px solid #fff;
+	margin: 15px 5px 15px 15px;
+	box-sizing: content-box;
+	position: relative;
+
+	display: flex;
+	flex-direction: column;
+	min-height: 0;
+	cursor: pointer;
+	transform: translateZ(0);
+}
+
+.game-score {
+	overflow: auto;
+	max-height: calc(100% - 44px);
+	z-index: 9999;
+}
+
+.game-score::-webkit-scrollbar {
+	width: 6px;
+}
+
+.game-container .home .home-content .game-buttons .game-button {
+	padding: 0px;
+	margin: 0px;
+	display: block;
+	border-bottom: 5px solid white;
+}
+
+.game-container .home .home-content .rooms-container {
+	flex: 1;
+	box-sizing: border-box;
+	padding: 15px;
+	padding-left: 0px;
+	display: flex;
+}
+
+.game-container .home .home-content .rooms-container .rooms {
+	flex: 1;
+	background-color: rgba(255, 255, 255, 0.75);
+	border: 10px solid white;
+	margin-left: 12px;
+
+	display: flex;
+	flex-direction: column;
+	min-height: 0;
+}
+.rooms-container .rooms .rooms-container-flex {
+	display: flex;
+	flex: 1;
+
+	flex-wrap: wrap;
+	min-height: 0;
+
+	margin-right: -10px;
+	overflow-y: scroll;
+	transform: translateZ(0);
+	overflow-x: hidden;
+	align-content: stretch !important;
+}
+.sidebar .rooms-container .rooms .rooms-container-flex {
+	flex-direction: column;
+}
+.game-container .home .home-content .rooms-container .rooms .toolbar {
+	color: #635959;
+
+	font-weight: bold;
+}
+
+.game-container .home .home-content .rooms-container .rooms .room {
+	box-sizing: border-box;
+
+	overflow: hidden;
+	padding: 10px;
+	min-width: 33.33%;
+	display: flex;
+	flex: 1;
+	flex-wrap: wrap;
+	padding-bottom: 26px;
+}
+
+.game-container .home .home-content .rooms-container .rooms .room .name {
+	margin-left: 10px;
+	font-size: 0.9rem;
+}
+
+.game-container .home .home-content .rooms-container .rooms .room:hover {
+	background-color: rgba(0, 0, 0, 0.1);
+	border-right: 10px solid rgba(0, 0, 0, 0.6);
+}
+
+.sidebar-container .sidebar .user-container,
+.sidebar-container .sidebar .messages-container,
+.sidebar-container .sidebar .room-container {
+	flex-grow: 0;
+	flex-shrink: 0;
+}
+
+.sidebar-container .sidebar .chat-container {
+	overflow: hidden !important;
+}
+
+.sidebar-container .sidebar .chat-container,
+.sidebar-container .sidebar .chat-container .chat {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	min-height: 0;
+	height: 100%;
+	max-height: 100%;
+	height: 100vh;
+	max-height: 100vh;
+	min-height: 0;
+	max-width: 100%;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.sidebar-container .sidebar .chat-container .chat .messages {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	min-height: 0;
+	flex-flow: column nowrap;
+	overflow-y: auto;
+	min-height: 0;
+	max-width: 100%;
+	width: 100%;
+	box-sizing: border-box;
+	overflow-x: hidden;
+	height: 100%;
+}
+
+.sidebar-container .sidebar .chat-container .chat .messages .message {
+	flex-grow: 0;
+	flex-shrink: 0;
+	max-width: 100%;
+	width: 100%;
+	box-sizing: border-box;
+	margin-top: 3px;
+}
+
+.chat-container .chat .messages .message .text,
+.chat-container .chat .messages .message .username {
+	word-wrap: break-word;
+	hyphens: auto;
+	max-width: 100%;
+	box-sizing: border-box;
+	vertical-align: top;
+}
+
+.chat-container .chat .messages .message .text {
+	white-space: pre-wrap;
+}
+
+.chat-container .chat .messages .message .text a {
+	word-break: break-all;
+}
+
+.chat-container .chat .messages .message .text img,
+.chat-private .text img {
+	max-width: 100%;
+
+	max-height: 250px;
+	vertical-align: text-top;
+}
+
+.content-container .footer .page .profile .entry .message .text img[src^="https://omgmobc.com/img/icon/s/"],
+.chat-container .chat .messages .message .text img[src^="https://omgmobc.com/img/icon/s/"],
+.chat-private-container .messages .text img[src^="https://omgmobc.com/img/icon/s/"]:not(.user)
+{
+	max-width: 150px !important;
+	box-sizing: content-box;
+	border-radius: 6px;
+}
+
+.content-container .footer .page .profile .entry .message .text img[src$='#32'],
+.content-container .footer .page .profile .entries .thinking img[src$='#32'],
+.chat-container .chat .messages .message .text img[src$='#32'],
+.chat-private-container .messages .text img[src$='#32']:not(.user),
+.content-container .footer .page .profile .entry .message .text img[src$='#32'],
+.chat-container .chat .messages .message .text img[src$='#32'],
+.chat-private-container .messages .text img[src$='#32']:not(.user) {
+	width: 32px;
+	height: 32px;
+}
+.content-container .footer .page .profile .entry .message .text img[src$='#128'],
+.content-container .footer .page .profile .entries .thinking img[src$='#128'],
+.chat-container .chat .messages .message .text img[src$='#128'],
+.chat-private-container .messages .text img[src$='#128']:not(.user),
+.content-container .footer .page .profile .entry .message .text img[src$='#128'],
+.chat-container .chat .messages .message .text img[src$='#128'],
+.chat-private-container .messages .text img[src$='#128']:not(.user) {
+	width: 128px;
+	height: 128px;
+	image-rendering: pixelated;
+}
+
+.content-container .footer .page .profile .entries .thinking img {
+	vertical-align: text-top;
+}
+.content-container .footer .page .profile .entry .message .text .emoji-native,
+.content-container .footer .page .profile .entries .thinking .emoji-native,
+.chat-container .chat .messages .message .text .emoji-native,
+.chat-private-container .messages .text .emoji-native,
+.content-container .footer .page .profile .entry .message .text .emoji-native,
+.chat-container .chat .messages .message .text .emoji-native,
+.chat-private-container .messages .text .emoji-native {
+	font-size: 30px;
+	/* display: inline-block; */
+	/* vertical-align: bottom; */
+	line-height: 1;
+	vertical-align: text-top;
+}
+
+.emoji-native {
+	display: inline-block;
+	vertical-align: top;
+	min-width: 1em;
+	min-height: 1em;
+}
+.status .emoji-native {
+	vertical-align: top;
+	font-size: 1.1em;
+}
+.chat-container .chat .messages .message .text img.floating-chat-emoji {
+	animation: floating-chat-emoji 0.5s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	opacity: 0;
+	transform: translateY(0) scale(0);
+	will-change: transform, opacity;
+	z-index: 1;
+	position: relative;
+	image-rendering: -webkit-optimize-contrast;
+}
+
+body[data-nohd='true'] .chat-container .chat .messages .message .text img.floating-chat-emoji {
+	opacity: 1;
+}
+
+@keyframes floating-chat-emoji {
+	0% {
+		transform: translateY(50px) scale(0);
+		opacity: 0;
+	}
+
+	60% {
+		opacity: 0.8;
+		transform: translateY(-3px) scale(1.05);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0px) scale(1);
+	}
+}
+
+.chat-container .chat .messages .message .text img[src^="https://omgmobc.com/img/icon/f/"]
+{
+	max-width: 16px;
+}
+
+img[src^="https://omgmobc.com/img/badge/"]
+{
+	border-radius: 5px;
+}
+img[src^="https://omgmobc.com/img/icon/s/"]
+{
+	border-radius: 100% !important;
+}
+
+.chat-container .chat .messages .message .text img[src$='svg'] {
+	max-width: 64px;
+}
+
+.content-container .footer .page[data-open='true'][data-page='confirm'] {
+	background: rgba(0, 0, 0, 0.6);
+	top: 0px;
+	max-height: inherit;
+	padding: 50px !important;
+	min-height: initial;
+	margin-bottom: 0px;
+	padding-bottom: 109px;
+	height: initial;
+	max-height: none;
+	overflow: hidden;
+	max-width: 458px;
+	margin-left: calc(50% - 229px) !important;
+	max-height: initial;
+	font-size: 1rem;
+	box-sizing: border-box;
+	height: initial;
+	min-height: initial;
+	display: inline-table;
+}
+
+@keyframes scream-pulse {
+	0% {
+		transform: scale(0.5) rotate(-20deg);
+		opacity: 0;
+	}
+
+	100% {
+		transform: scale(1.5) rotate(0deg);
+		opacity: 1;
+	}
+}
+
+.content-container .footer .page[data-open='true'][data-page='confirm'] input {
+	vertical-align: middle;
+	margin-top: 2px;
+	margin-bottom: 5px;
+}
+
+.content-container .footer .page[data-open='true'][data-page='confirm'] label {
+	font-size: 0.8rem;
+	margin-bottom: 14px;
+}
+
+.content-container .footer .page[data-open='true'][data-page='confirm'] .message {
+	font-size: 1.2rem;
+	margin-bottom: 5px;
+	margin-left: 4px !important;
+}
+
+.content-container .footer[data-open='true'] {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	min-height: 100%;
+	background: rgba(0, 0, 0, 0.55);
+	z-index: 999999;
+}
+
+.content-container .footer .page {
+	background-color: rgb(0, 0, 0);
+	background-image: url(https://omgmobc.com/img/background/dusk-dark.jpg);
+	background-size: cover;
+	display: flex;
+}
+
+.content-container .footer .page:not([data-page='profile']) {
+	background-image: url(https://omgmobc.com/img/background/dusk-dark.jpg);
+}
+
+.content-container .footer .page[data-open='false'] {
+	max-height: 0%;
+}
+
+.content-container .footer .page[data-open='true'] {
+	bottom: 0px;
+	left: 0px;
+	margin-left: 10%;
+	width: 75%;
+	max-width: 75%;
+	overflow: hidden;
+	position: fixed;
+	font-size: 0.8rem;
+	color: white;
+	box-sizing: border-box;
+	z-index: 999999;
+}
+
+.content-container .footer .page[data-open='true'] {
+	box-shadow: 0 0 61px black;
+	max-height: 80%;
+	height: 80%;
+	overflow-y: scroll;
+	padding: 35px;
+}
+
+.content-container .footer .page[data-open='true'][data-page='settings'] {
+	min-height: 80%;
+	height: 80%;
+}
+
+.content-container .footer .page::-webkit-scrollbar {
+	width: 30px;
+	background-color: rgba(0, 0, 0, 0.3) !important;
+}
+
+.content-container .footer .page input[type='text'],
+.content-container .footer .page input[type='password'] {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+body[data-game='pool'] .content-container .content .game-container .game,
+body[data-game='9ball'] .content-container .content .game-container .game {
+	height: 100%;
+	min-height: 100%;
+	max-height: 100%;
+	box-sizing: border-box;
+}
+
+body[data-game='gemmers'] .content-container .content .game-container .game .game-swf,
+body[data-game='blockles'] .content-container .content .game-container .game .game-swf,
+body[data-game='blocklesmulti'] .content-container .content .game-container .game .game-swf,
+body[data-game='bubbles'] .content-container .content .game-container .game .game-swf,
+body[data-game='bubblesni'] .content-container .content .game-container .game .game-swf,
+body[data-game='dinglepop'] .content-container .content .game-container .game .game-swf {
+}
+
+.only-bubbles {
+	display: none;
+}
+
+body[data-game='bubbles'] .only-bubbles,
+body[data-game='bubblesni'] .only-bubbles,
+body[data-game='dinglepop'] .only-bubbles {
+	display: block !important;
+}

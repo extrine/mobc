@@ -1,0 +1,124 @@
+body[data-game='cuacka'] .game-container .game .game-swf .game-score {
+	position: absolute;
+	left: 20px;
+	width: 200px;
+	color: #fff;
+	background: rgba(0, 0, 0, 0.1);
+	border: 1px solid #828282;
+	border-top: 0px;
+	user-select: none;
+	transition: none !important;
+}
+
+.game-container .game .game-swf {
+	position: relative;
+}
+
+body[data-game='cuacka'] .game-container .game .game-swf .restart {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	font-weight: bold;
+	cursor: pointer;
+	padding: 6px;
+}
+
+body[data-game='cuacka'] .game-container .game .game-swf .restart svg {
+	font-size: 1.4rem;
+}
+
+body[data-game='cuacka']
+	.game-container
+	.game
+	.game-swf
+	.game-score
+	.score-table
+	.player:last-child {
+	transition: none !important;
+}
+
+body[data-game='cuacka']
+	.game-container
+	.game
+	.game-swf
+	.game-score
+	.score-table
+	.player:nth-of-type(odd) {
+	background: rgba(0, 0, 0, 0.2);
+	transition: none !important;
+}
+
+body[data-game='cuacka'] .game-container .game .game-swf .game-score .score-table .r {
+	margin-top: 7px;
+	margin-right: 7px;
+	transition: none !important;
+}
+
+body[data-game='cuacka'] .game-container .game .game-swf .game-score .score-table .st-user {
+	font-size: 0.9rem;
+	text-align: right;
+	margin-bottom: 5px;
+	max-width: 100px;
+	max-height: 20px;
+	overflow: hidden;
+	transition: none !important;
+}
+
+body[data-game='cuacka'] .game-container .game .game-swf .game-score .score-table .st-score {
+	font-size: 1.8rem;
+
+	text-align: right;
+	transition: none !important;
+}
+
+body[data-game='cuacka'] .game-container .game .game-swf .game-score .score-table .st-img {
+	width: 54px;
+	height: 54px;
+
+	margin: 10px;
+	transition: none !important;
+}
+
+body[data-game='cuacka'] .game-container .game .game-swf .game-score .score-table .player.done {
+	opacity: 0.4;
+	transition: none !important;
+}
+
+body[data-game='cuacka'] .game-container .game .game-swf .game-score .score-table .player.me {
+	background: rgba(255, 255, 255, 0.8);
+	color: rgb(137, 79, 187);
+	transition: none !important;
+}
+
+body[data-game='cuacka']
+	.game-container
+	.game
+	.game-swf
+	.game-score
+	.score-table
+	.player.me
+	.st-score {
+	transition: none !important;
+}
+
+@media all and (max-width: 1550px) {
+	body[data-game='cuacka'] .game-container .game .game-swf .game-score {
+		left: 4px;
+		width: 170px;
+	}
+
+	body[data-game='cuacka'] .game-container .game .game-swf .game-score .score-table .st-user {
+		font-size: 0.8rem;
+		max-width: 83px;
+	}
+
+	body[data-game='cuacka'] .game-container .game .game-swf .game-score .score-table .st-score {
+		font-size: 1.6rem;
+	}
+
+	body[data-game='cuacka'] .game-container .game .game-swf .game-score .score-table .st-img {
+		width: 49px;
+		height: 49px;
+		margin: 5px;
+	}
+}

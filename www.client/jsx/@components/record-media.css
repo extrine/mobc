@@ -1,0 +1,27 @@
+.record-media-audio,
+.record-media-video {
+	font-size: 21px;
+}
+.record-media-video {
+	color: white !important;
+
+	opacity: 0.5;
+}
+
+.record-media-video:hover {
+	opacity: 1;
+}
+.record-media-audio {
+	color: white !important;
+
+	opacity: 0.5;
+}
+
+.record-media-audio:hover {
+	opacity: 1;
+}
+
+body[data-guest='true'] .record-media-video,
+body[data-guest='true'] .record-media-audio {
+	display: none;
+}

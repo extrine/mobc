@@ -1,0 +1,37 @@
+body[data-nohd='true'],
+body[data-nohd='true'] * {
+	animation-timing-function: none !important;
+	animation-fill-mode: none !important;
+	animation-iteration: none !important;
+	animation-iteration-count: 0 !important;
+	animation-name: none !important;
+	animation: none !important;
+	transition-property: none !important;
+	transition: unset !important;
+	transform: none !important;
+	box-shadow: none !important;
+	text-shadow: none !important;
+	filter: none !important;
+}
+
+body[data-nohd='true'] .arrow-left {
+	transform: scaleX(-1) !important;
+}
+
+body[data-cblind='true'] {
+	filter: hue-rotate(27deg) grayscale(3%) !important;
+}
+
+body[data-nohd='true'] .swapples-nof {
+	filter: hue-rotate(290deg) !important;
+}
+.swapples-nof {
+	filter: hue-rotate(290deg) !important;
+}
+
+body[data-nohd='true']
+	.rooms-container
+	.rooms
+	.room[data-game='swapples'][data-id^='swapples-nof'] {
+	filter: hue-rotate(290deg) !important;
+}

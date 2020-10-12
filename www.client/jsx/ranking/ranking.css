@@ -1,0 +1,77 @@
+.ranking {
+}
+
+.ranking ul.data {
+	padding: 0px;
+	margin: 0px;
+}
+
+.ranking ul.column {
+	padding: 0px;
+	margin: 0px;
+	margin-left: 10px;
+}
+
+.ranking ul.data li {
+	width: 25%;
+	max-width: 25%;
+	float: left;
+	list-style-type: none;
+	box-sizing: border-box;
+	padding: 10px;
+}
+
+.ranking b {
+	padding-bottom: 10px;
+	display: inline-block;
+	margin-left: -10px;
+}
+
+.ranking .username:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.normal {
+	padding: 0px !important;
+	border: 0px !important;
+	display: inline-block !important;
+	margin: 0px !important;
+}
+
+.ranking i {
+	margin-left: 0px !important;
+}
+
+.ranking img[src^="https://omgmobc.com/img/badge"]
+{
+	vertical-align: baseline !important;
+	margin-bottom: 0 !important;
+	margin-right: 0 !important;
+	float: none !important;
+	image-rendering: -webkit-optimize-contrast;
+}
+
+.ranking .column {
+	display: block;
+	clear: both;
+}
+
+.ranking li {
+	display: block;
+}
+
+.ranking-columns div {
+}
+
+.emoji-list .column.gifs li {
+}
+.emoji-list .column.gifs {
+	column-count: 3;
+}
+
+.emoji-list h3 {
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}

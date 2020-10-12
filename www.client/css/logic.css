@@ -1,0 +1,64 @@
+body[data-host='true'] .host {
+	display: inline-block;
+}
+
+body[data-creator='true'] .creator {
+	display: inline-block;
+}
+
+body[data-mod='true'] .mod,
+body[data-mod='true'] .host {
+	display: inline-block;
+	visibility: visible;
+}
+
+body[data-mod='true'] .mod.block-clear {
+	display: block !important;
+	clear: both !important;
+}
+
+body[data-mod='true'] .mod-output {
+	display: block;
+}
+
+body[data-pu='true'] .pu,
+body[data-pu='true'] .host {
+	display: inline-block;
+	visibility: visible;
+}
+
+body[data-guest='true'] .no-guest {
+	visibility: hidden;
+}
+
+body[data-guest='true'] .guest-hidden {
+	display: none;
+}
+
+body[data-rotate='false'] .button-rotate:not(.button-rotate-opponent) {
+	display: none;
+}
+
+body[data-donated='true'] .no-wtf {
+	display: none;
+}
+
+body[data-donated='true'] .yes-wtf {
+	background-color: green;
+}
+
+.not-self[data-self='true'] {
+	display: none !important;
+}
+
+body[data-is-mobile='true'] .no-mobile {
+	display: none !important;
+}
+
+.button-loonobum {
+	display: none !important;
+}
+
+.button-poker {
+	display: none !important;
+}
